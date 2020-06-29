@@ -1,0 +1,309 @@
+@font-face {
+    font-family: Larish;
+    src: url(../font/LarishNeueSemibold.woff);
+  }
+/*Farbe: #fff / #000
+font-family: 'Work Sans', sans-serif;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    background: #000;
+}
+* {margin:0; padding:0}
+
+/* ------ Global ------ */
+a {
+    font-size: 1.2em;
+}
+p {
+    font-size: 1.2em;
+    line-height: 2em;
+    color: #fff;
+    text-align: center;
+}
+h1, h2 {
+    font-family: Larish;
+    font-size: 6em;
+}
+h3 {
+    font-family: Larish;
+    font-size: 4.8em;
+    line-height: 1em;
+}
+h4 {
+    font-family: Larish;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #fff;
+}
+/* ------ Header ------ */
+header {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.LineVertikal {
+    width: 1px;
+    height: 22vh;
+    background: #fff;
+    margin: 0 auto;
+}
+header p:first-of-type {
+    padding: 8vh 5% 3vh;
+}
+header p:last-of-type {
+    padding-top: 3.4vh;
+}
+header h1 {
+    color: #fff;
+    text-align: center;
+    line-height: 0.8em;
+}
+header span {
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    margin: 18vh 8% 0;
+}
+div img {
+    height: 5vh;
+}
+div a {
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+}
+div a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+/* ------ FirstSection_Last year, ... ------ */
+section article h2 {
+    color: #fff;
+    margin: 10vh 8% 0;
+    line-height: 1.1em;
+}
+#Damages {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10vh;
+}
+.txt {
+    width: 50%;
+    padding-top: 22vh;
+}
+.txt p {
+    text-align: left;
+    margin-left: 17%;
+}
+.txt h2 {
+    text-align: left;
+    margin: 0 0 5vh 17%;
+}
+#Damages .img {
+    width: 50%;
+    height: 90vh;
+    background: url(../img/map.svg) right/cover no-repeat;
+    background-size: contain;
+}
+/* ------ SecondSection -Stuck in the middle- ------ */
+#theMiddle {
+    position: relative;
+    height: 300vh;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.spaceTop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background: #000;
+}
+.imgMiddle img {
+    height: 26vh;
+}
+.imgMiddle img:nth-child(1) {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 8%;
+}
+.imgMiddle img:nth-of-type(2) {
+    position: absolute;
+    margin: 0;
+    top: 50vh;
+    left: 4%;
+}
+.imgMiddle img:nth-of-type(3) {
+    position: absolute;
+    margin: 0;
+    top: 100vh;
+    right: 0;
+}
+.imgMiddle img:nth-of-type(4) {
+    position: absolute;
+    margin: 0;
+    top: 126vh;
+    left: 12%;
+}
+.imgMiddle img:nth-of-type(5) {
+    position: absolute;
+    margin: 0;
+    top: 158vh;
+    right: 10%;
+}
+.imgMiddle img:nth-of-type(6) {
+    position: absolute;
+    margin: 0;
+    top: 200vh;
+    left: 0%;
+}
+.imgMiddle img:nth-of-type(7) {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    right: 20%;
+    z-index: 1;
+    height: 44vh;
+}
+.spaceBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background: #000 ;
+}
+#theMiddle article h3 {
+    position: absolute;
+    top: 69vh;
+    left: 34%;
+    color: #000;
+}
+#theMiddle article p {
+    position: absolute;
+    text-align: left;
+    top: 91vh;
+    left: 34%;
+    color: #000;
+    padding-right: 30%;
+}
+#theMiddle article p:nth-last-of-type(1) {
+    position: absolute;
+    text-align: left;
+    top: 202vh;
+    left: 34%;
+    color: #000;
+    padding-right: 30%;
+}
+/* ------ SecondSection -TheGoldenBear- ------ */
+#GoldenBear {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-end;
+    padding: 20vh 0 25vh
+}
+.leftCol {
+    width: 30%;
+}
+.leftCol p {
+    padding-bottom: 24px;
+}
+.leftCol h3 {
+    color: #fff;
+}
+.leftCol p {
+    text-align: left;
+}
+.rightCol {
+    width: 48%;
+}
+.rightCol p {
+    text-align: left;
+    padding-top: 24px;
+}
+#GoldenBearImg {
+    position: relative;
+    background: #000;
+    height: 85vh;
+    z-index: 1;
+}
+#GoldenBearImg img:nth-of-type(1) {
+    position: absolute;
+    width: 64%;
+    bottom: -330px;
+    left: 8%;
+}
+#GoldenBearImg img:nth-of-type(2) {
+    position: absolute;
+    width: 36%;
+    bottom: -28vh;
+    right: 10%;
+}
+#PoppyBear {
+    position: relative;
+    background: #fff;
+    height: 50vh;
+    z-index: 0;
+}
+#PoppyBear>div {
+    position: absolute;
+    right: -800px;
+
+}
+
+.rotate {
+    width: 46%;
+    height: 46%;
+    animation: rotate 8s infinite linear;
+}
+@keyframes rotate {
+    0%  {
+        transform: rotate(-360deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100% {
+        rotate: (-360deg);
+    }
+}
+
+
+/*
+
+/*Large Desktop*
+@media (min-width:1200px) {
+    
+}
+/*Normal Desktop*
+@media (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*small desktop*
+@media (min-width:980px) and (max-width:1023px) {
+    
+}
+/*For tablet *
+@media (min-width:768px) and (max-width:979px)  {
+    
+}
+/*For Mobile landscape *
+@media (min-width:480px) and (max-width:767px)  {
+    
+}
+/*For Mobile  *
+@media (min-width:320px) and (max-width:479px)  {
+}
